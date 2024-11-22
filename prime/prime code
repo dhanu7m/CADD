@@ -1,3 +1,14 @@
+ A circuit has four inputs and two outputs. The inputs, A3:0, represent a number from 0 to 15. Output 
+ P should be TRUE if the number is prime (0 and 1 are not prime, but 2, 3, 5, and so on, are prime). Output 
+ D should be TRUE if the number is divisible by 3. Give simplified Boolean equations for each output and sketch a circuit.
+
+
+
+
+
+
+
+
 module prime(
     input  logic [3:0] A,  
     output logic P,D );
